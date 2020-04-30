@@ -15,7 +15,7 @@ Here are the following things that needs to be downloaded on every VM in the clu
 - Anaconda 4.5.11
 - Install all the packages from `requirements.txt`
 
-After starting the notebooks, it should be quite straight forward when running the notebooks, as long as you have installed Hadoop and Spark correctly. 
+After running `jupyter notebook`, it should be quite straight forward when running the notebooks, as long as you have installed Hadoop and Spark correctly. 
 
 ___
 
