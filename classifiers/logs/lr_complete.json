@@ -1,0 +1,227 @@
+[
+    {
+        "time": 213.8,
+        "pipeline": "fc_1: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler",
+        "fractions": "No",
+        "train_acc": 0.26383504236301614,
+        "test_acc": 0.26296480390068405,
+        "top_3_train_acc": 0.5365779590845134,
+        "top_3_test_acc": 0.5401074581646903
+    },
+    {
+        "time": 145.1,
+        "pipeline": "fc_2: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler",
+        "fractions": "No",
+        "train_acc": 0.25186002490155784,
+        "test_acc": 0.2508225046746669,
+        "top_3_train_acc": 0.5344016034173845,
+        "top_3_test_acc": 0.5379298918317593
+    },
+    {
+        "time": 160.5,
+        "pipeline": "fc_3: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler",
+        "fractions": "No",
+        "train_acc": 0.24888398505906528,
+        "test_acc": 0.24881062273663282,
+        "top_3_train_acc": 0.5323365961797366,
+        "top_3_test_acc": 0.536438732277687
+    },
+    {
+        "time": 144.1,
+        "pipeline": "fc_4: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler",
+        "fractions": "No",
+        "train_acc": 0.24867141078460153,
+        "test_acc": 0.24817155435631613,
+        "top_3_train_acc": 0.5316887507718471,
+        "top_3_test_acc": 0.534497857937466
+    },
+    {
+        "time": 135.3,
+        "pipeline": "fc_5: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler",
+        "fractions": "No",
+        "train_acc": 0.2653635526222555,
+        "test_acc": 0.2649530166394471,
+        "top_3_train_acc": 0.5408395671582868,
+        "top_3_test_acc": 0.5444389216312812
+    },
+    {
+        "time": 130.3,
+        "pipeline": "fc_6: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler",
+        "fractions": "No",
+        "train_acc": 0.2528520381823887,
+        "test_acc": 0.25264503301853297,
+        "top_3_train_acc": 0.5344724615088724,
+        "top_3_test_acc": 0.538710975407702
+    },
+    {
+        "time": 155.4,
+        "pipeline": "fc_1: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> StandardScaler",
+        "fractions": "No",
+        "train_acc": 0.2539452773082023,
+        "test_acc": 0.25228999502946814,
+        "top_3_train_acc": 0.5343509904948932,
+        "top_3_test_acc": 0.5388529906033279
+    },
+    {
+        "time": 156.8,
+        "pipeline": "fc_2: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> StandardScaler",
+        "fractions": "No",
+        "train_acc": 0.25349988359027825,
+        "test_acc": 0.2512722194608156,
+        "top_3_train_acc": 0.5358896233386308,
+        "top_3_test_acc": 0.540770195744278
+    },
+    {
+        "time": 163.5,
+        "pipeline": "fc_3: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> StandardScaler",
+        "fractions": "No",
+        "train_acc": 0.25307473504135075,
+        "test_acc": 0.25165092664915145,
+        "top_3_train_acc": 0.535343003775724,
+        "top_3_test_acc": 0.5397524201756254
+    },
+    {
+        "time": 164.8,
+        "pipeline": "fc_1: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> MinMaxScaler",
+        "fractions": "No",
+        "train_acc": 0.252345908957475,
+        "test_acc": 0.2508698430732088,
+        "top_3_train_acc": 0.5343105001569001,
+        "top_3_test_acc": 0.5379298918317593
+    },
+    {
+        "time": 165.7,
+        "pipeline": "fc_2: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> MinMaxScaler",
+        "fractions": "No",
+        "train_acc": 0.25296338661186973,
+        "test_acc": 0.2508698430732088,
+        "top_3_train_acc": 0.5358693781696343,
+        "top_3_test_acc": 0.540864872541362
+    },
+    {
+        "time": 166.3,
+        "pipeline": "fc_3: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> MinMaxScaler",
+        "fractions": "No",
+        "train_acc": 0.2517587990565751,
+        "test_acc": 0.2507988354753959,
+        "top_3_train_acc": 0.5354037392827137,
+        "top_3_test_acc": 0.540793864943549
+    },
+    {
+        "time": 181.5,
+        "pipeline": "fc_1: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> Normalizer -> MinMaxScaler",
+        "fractions": "No",
+        "train_acc": 0.24857018493961877,
+        "test_acc": 0.2469644251934957,
+        "top_3_train_acc": 0.531870957292816,
+        "top_3_test_acc": 0.5356103103032025
+    },
+    {
+        "time": 182.9,
+        "pipeline": "fc_2: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> Normalizer -> MinMaxScaler",
+        "fractions": "No",
+        "train_acc": 0.25293301885837494,
+        "test_acc": 0.2518402802433194,
+        "top_3_train_acc": 0.5347558938748241,
+        "top_3_test_acc": 0.5390423441974957
+    },
+    {
+        "time": 184.5,
+        "pipeline": "fc_3: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> Normalizer -> MinMaxScaler",
+        "fractions": "No",
+        "train_acc": 0.25428944518114366,
+        "test_acc": 0.25311841700395277,
+        "top_3_train_acc": 0.5336828999180071,
+        "top_3_test_acc": 0.538710975407702
+    },
+    {
+        "time": 173.1,
+        "pipeline": "fc_1: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> Normalizer -> StandardScaler",
+        "fractions": "No",
+        "train_acc": 0.2504023727338064,
+        "test_acc": 0.25004142109872424,
+        "top_3_train_acc": 0.5306360019840266,
+        "top_3_test_acc": 0.5353499491112216
+    },
+    {
+        "time": 177.3,
+        "pipeline": "fc_2: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> Normalizer -> StandardScaler",
+        "fractions": "No",
+        "train_acc": 0.2594317181062669,
+        "test_acc": 0.2590593860209709,
+        "top_3_train_acc": 0.5368512688659669,
+        "top_3_test_acc": 0.5416222869180336
+    },
+    {
+        "time": 177.7,
+        "pipeline": "fc_3: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> Normalizer -> StandardScaler",
+        "fractions": "No",
+        "train_acc": 0.2585712984239136,
+        "test_acc": 0.25853866363700917,
+        "top_3_train_acc": 0.5361933008735791,
+        "top_3_test_acc": 0.5414329333238657
+    },
+    {
+        "time": 180.1,
+        "pipeline": "fc_1: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> Normalizer -> MaxAbsScaler",
+        "fractions": "No",
+        "train_acc": 0.24724412637034487,
+        "test_acc": 0.24630168761390803,
+        "top_3_train_acc": 0.5317697314478332,
+        "top_3_test_acc": 0.5355629719046605
+    },
+    {
+        "time": 186.1,
+        "pipeline": "fc_2: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> Normalizer -> MaxAbsScaler",
+        "fractions": "No",
+        "train_acc": 0.21079269959205985,
+        "test_acc": 0.2144429453951573,
+        "top_3_train_acc": 0.5049752502809017,
+        "top_3_test_acc": 0.5107576510686643
+    },
+    {
+        "time": 185.8,
+        "pipeline": "fc_3: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> Normalizer -> MaxAbsScaler",
+        "fractions": "No",
+        "train_acc": 0.21079269959205985,
+        "test_acc": 0.2144429453951573,
+        "top_3_train_acc": 0.5049752502809017,
+        "top_3_test_acc": 0.5107576510686643
+    },
+    {
+        "time": 199.2,
+        "pipeline": "fc_1: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> StandardScaler -> PCA_3",
+        "fractions": "No",
+        "train_acc": 0.22709006063428114,
+        "test_acc": 0.2294018793344221,
+        "top_3_train_acc": 0.5195821397119113,
+        "top_3_test_acc": 0.5248881630334445
+    },
+    {
+        "time": 175.2,
+        "pipeline": "fc_1: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> StandardScaler -> PCA_10",
+        "fractions": "No",
+        "train_acc": 0.23783012278694995,
+        "test_acc": 0.24064474898814173,
+        "top_3_train_acc": 0.5347356487058276,
+        "top_3_test_acc": 0.5389950057989539
+    },
+    {
+        "time": 175.2,
+        "pipeline": "fc_2: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> StandardScaler -> PCA_3",
+        "fractions": "No",
+        "train_acc": 0.21255402929475953,
+        "test_acc": 0.2158394281521456,
+        "top_3_train_acc": 0.5111702719938455,
+        "top_3_test_acc": 0.5168879736798504
+    },
+    {
+        "time": 170.9,
+        "pipeline": "fc_2: StringIndexer -> OneHotEncoder -> StringIndexer -> VectorAssembler -> StandardScaler -> PCA_10",
+        "fractions": "No",
+        "train_acc": 0.2374657097450121,
+        "test_acc": 0.2378044450756231,
+        "top_3_train_acc": 0.5208069724362024,
+        "top_3_test_acc": 0.5265686761816848
+    }
+]

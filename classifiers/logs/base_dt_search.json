@@ -1,0 +1,37 @@
+[
+    {
+        "depth": 5,
+        "imputiry": "gini",
+        "execution_time": 28.7,
+        "test_error": 0.3037,
+        "top3_test_error": 0.20305
+    },
+    {
+        "depth": 10,
+        "imputiry": "gini",
+        "execution_time": 30.3,
+        "test_error": 0.0921,
+        "top3_test_error": 0.01446
+    },
+    {
+        "depth": 20,
+        "imputiry": "gini",
+        "execution_time": 40.2,
+        "test_error": 0.0587,
+        "top3_test_error": 0.00905
+    },
+    {
+        "depth": 25,
+        "imputiry": "gini",
+        "execution_time": 57.2,
+        "test_error": 0.0589,
+        "top3_test_error": 0.00895
+    },
+    {
+        "depth": 30,
+        "imputiry": "gini",
+        "execution_time": 88.1,
+        "test_error": 0.06,
+        "top3_test_error": 0.00858
+    }
+]

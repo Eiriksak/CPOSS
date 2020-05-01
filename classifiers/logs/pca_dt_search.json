@@ -1,0 +1,98 @@
+[
+    {
+        "depth": 10,
+        "imputiry": "gini",
+        "execution_time": 29.5,
+        "test_error": 0.3881,
+        "top3_test_error": 0.27022,
+        "dimenstion": 5
+    },
+    {
+        "depth": 25,
+        "imputiry": "gini",
+        "execution_time": 50.6,
+        "test_error": 0.2208,
+        "top3_test_error": 0.1278,
+        "dimenstion": 5
+    },
+    {
+        "depth": 30,
+        "imputiry": "gini",
+        "execution_time": 61.1,
+        "test_error": 0.2096,
+        "top3_test_error": 0.12764,
+        "dimenstion": 5
+    },
+    {
+        "depth": 10,
+        "imputiry": "gini",
+        "execution_time": 28.1,
+        "test_error": 0.3507,
+        "top3_test_error": 0.22629,
+        "dimenstion": 10
+    },
+    {
+        "depth": 25,
+        "imputiry": "gini",
+        "execution_time": 43.6,
+        "test_error": 0.1757,
+        "top3_test_error": 0.10855,
+        "dimenstion": 10
+    },
+    {
+        "depth": 30,
+        "imputiry": "gini",
+        "execution_time": 48.7,
+        "test_error": 0.1502,
+        "top3_test_error": 0.08868,
+        "dimenstion": 10
+    },
+    {
+        "depth": 10,
+        "imputiry": "gini",
+        "execution_time": 29.7,
+        "test_error": 0.3528,
+        "top3_test_error": 0.23162,
+        "dimenstion": 15
+    },
+    {
+        "depth": 25,
+        "imputiry": "gini",
+        "execution_time": 63.4,
+        "test_error": 0.1875,
+        "top3_test_error": 0.11749,
+        "dimenstion": 15
+    },
+    {
+        "depth": 30,
+        "imputiry": "gini",
+        "execution_time": 55.8,
+        "test_error": 0.1576,
+        "top3_test_error": 0.09562,
+        "dimenstion": 15
+    },
+    {
+        "depth": 10,
+        "imputiry": "gini",
+        "execution_time": 31.9,
+        "test_error": 0.3527,
+        "top3_test_error": 0.23162,
+        "dimenstion": 25
+    },
+    {
+        "depth": 25,
+        "imputiry": "gini",
+        "execution_time": 51.6,
+        "test_error": 0.1897,
+        "top3_test_error": 0.12058,
+        "dimenstion": 25
+    },
+    {
+        "depth": 30,
+        "imputiry": "gini",
+        "execution_time": 62.5,
+        "test_error": 0.1615,
+        "top3_test_error": 0.09833,
+        "dimenstion": 25
+    }
+]
