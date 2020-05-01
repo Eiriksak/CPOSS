@@ -42,7 +42,6 @@ SparkContext.setSystemProperty("spark.driver.maxResultSize", "2g")
 sc = pyspark.SparkContext(master='spark://192.168.11.239:7077', appName='type_predicter')
 sqlContext = SQLContext(sc)
 
-from pyspark.mllib.tree import RandomForest, RandomForestModel
 from pyspark.sql.types import *
 from datetime import datetime
 import pyspark.sql.functions as F #avoid conflicts with regular python functions
